@@ -1,0 +1,10 @@
+version: "3.4"
+services:
+  batch:
+    build: ./
+    volumes:
+      - ./:/app
+    environment:
+      LINE_BOT_CHANNEL_SECRET: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+      LINE_BOT_ACCESS_TOKEN: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+      LINE_TO: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
